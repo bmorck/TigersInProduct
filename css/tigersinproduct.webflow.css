@@ -78,8 +78,11 @@ body {
 }
 
 .section-4 {
-  margin-top: 50px;
-  padding-left: 70px;
+  min-width: 0px;
+  margin-top: 1px;
+  margin-bottom: 40px;
+  padding-left: 0px;
+  background-color: transparent;
 }
 
 .div-block-2 {
@@ -99,6 +102,7 @@ body {
   margin-top: 44px;
   margin-right: 0px;
   padding: 0px 0px 4px;
+  font-family: 'PT Sans', sans-serif;
   color: #676767;
 }
 
@@ -579,12 +583,16 @@ body {
 }
 
 .div-block-17 {
-  min-height: 100px;
-  min-width: 100px;
+  max-height: 100px;
+  max-width: 100px;
+  min-height: 200px;
+  min-width: 200px;
+  padding-right: 303px;
   float: right;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png');
+  background-image: url('../images/HandsOnExp.PNG');
   background-position: 0px 0px;
-  background-size: 125px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .button {
@@ -658,6 +666,124 @@ body {
   text-align: left;
 }
 
+.div-block-19 {
+  float: right;
+}
+
+.div-block-20 {
+  min-height: 200px;
+  min-width: 200px;
+  margin-left: 72px;
+  padding-left: 0px;
+  float: left;
+  background-image: url('../images/HandsOnExperience.PNG');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.text-block-5 {
+  max-width: 400px;
+  padding-top: 20px;
+}
+
+.text-block-6 {
+  max-width: 400px;
+  padding-top: 20px;
+}
+
+.div-block-21 {
+  max-width: 350px;
+  padding-top: 20px;
+}
+
+.container-11 {
+  max-width: 1000px;
+  margin-top: 65px;
+  padding-top: 0px;
+}
+
+.container-12 {
+  max-width: 1000px;
+  margin-top: 65px;
+}
+
+.container-13 {
+  max-width: 1000px;
+}
+
+.section-7 {
+  background-color: #f5f5f5;
+}
+
+.div-block-22 {
+  display: block;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+}
+
+.mask {
+  overflow: hidden;
+}
+
+.slider {
+  overflow: visible;
+  background-color: hsla(0, 0%, 86.7%, 0);
+}
+
+.div-block-23 {
+  max-height: 400px;
+  max-width: 1000px;
+  min-height: 400px;
+  min-width: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/TIPNetwork.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.heading-5 {
+  font-family: 'PT Sans', sans-serif;
+  color: #5f5f5f;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+}
+
+.heading-6 {
+  font-family: 'PT Sans', sans-serif;
+  color: #5b5b5b;
+  text-align: center;
+}
+
+.div-block-24 {
+  max-height: 0px;
+  max-width: 0px;
+  min-height: 400px;
+  min-width: 1000px;
+  background-image: url('../images/TIPNetwork.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.div-block-25 {
+  min-height: 200px;
+  min-width: 200px;
+  margin-right: 104px;
+  padding-right: 0px;
+  float: right;
+  background-image: url('../images/workshops.PNG');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 @media screen and (max-width: 991px) {
   .div-block {
     background-repeat: repeat-x;
@@ -696,5 +822,8 @@ body {
   .icon {
     position: static;
     float: none;
+  }
+  .div-block-20 {
+    margin-left: -4px;
   }
 }
